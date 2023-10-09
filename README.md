@@ -1,6 +1,6 @@
 # FAQ Accordion
 
-Repository name: Questions
+Repository name: FQA-Accordion
 
 Description:
 This GitHub repository contains code for creating a Frequently Asked Questions (FAQ) accordion using JavaScript. An FAQ accordion is a user-friendly way to display a list of questions and their corresponding answers, allowing users to expand and collapse each question as needed.
