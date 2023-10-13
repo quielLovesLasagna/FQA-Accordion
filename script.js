@@ -1,8 +1,10 @@
 "use strict";
 
-// Using selectors inside the element solution
+// ---- ELEMENTS ---- //
 const questions = document.querySelectorAll(".question");
+// ---- END OF ELEMENTS ---- //
 
+// ---- EVENT HANDLER ---- //
 questions.forEach((question) => {
   const btn = question.querySelector(".question-btn");
   btn.addEventListener("click", () => {
@@ -14,12 +16,4 @@ questions.forEach((question) => {
     question.classList.toggle("show-text");
   });
 });
-
-// DOM traversing solution
-// const btns = document.querySelectorAll(".question-btn");
-// btns.forEach((btn) => {
-//   btn.addEventListener("click", (e) => {
-//     const question = e.currentTarget.parentElement.parentElement;
-//     question.classList.toggle("show-text");
-//   });
-// });
+// ---- END OF EVENT HANDLER ---- //
